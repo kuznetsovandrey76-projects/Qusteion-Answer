@@ -1,0 +1,45 @@
+body {
+	font-family: Tahoma;
+}
+header {
+	font-size: 2em;
+	text-align: center;
+	margin: 10px 0;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.q, .a {
+	margin: 5px 0;
+	padding: 10px;
+	border: 1px solid black;
+	-webkit-border-radius: 1em;
+	        border-radius: 1em;
+	
+}
+.q {
+	font-weight: bold;
+	background: lightgray;
+}
+.a {
+	font-style: italic;
+	padding-left: 30px;
+}
+
+#stack {
+	margin-top: 10px; 
+}
+
+#stack li {
+	display: inline-block;
+	margin: 5px;
+	padding: 10px;
+	background: #8e14cc;
+	color: white;
+	border: 1px solid black;
+	-webkit-border-radius: 1em;
+	        border-radius: 1em;
+}
