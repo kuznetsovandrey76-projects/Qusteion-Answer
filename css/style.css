@@ -3,8 +3,8 @@ body {
 }
 header {
 	font-size: 2em;
-	text-align: center;
 	margin: 10px 0;
+	text-align: center;
 }
 
 ul {
@@ -13,20 +13,21 @@ ul {
 	padding: 0;
 }
 .q, .a {
+	        border-radius: 1em;
+	-webkit-border-radius: 1em;
+	border: 1px solid black;
 	margin: 5px 0;
 	padding: 10px;
-	border: 1px solid black;
-	-webkit-border-radius: 1em;
-	        border-radius: 1em;
 	
 }
 .q {
-	font-weight: bold;
 	background: lightgray;
+	font-weight: bold;
 }
 .a {
+	display: inline-block;
 	font-style: italic;
-	padding-left: 30px;
+	margin-left: 20px;
 }
 
 #stack {
@@ -34,12 +35,12 @@ ul {
 }
 
 #stack li {
+	        border-radius: 1em;
+	-webkit-border-radius: 1em;
+	background: #8e14cc;
+	border: 1px solid black;
+	color: white;
 	display: inline-block;
 	margin: 5px;
 	padding: 10px;
-	background: #8e14cc;
-	color: white;
-	border: 1px solid black;
-	-webkit-border-radius: 1em;
-	        border-radius: 1em;
 }
